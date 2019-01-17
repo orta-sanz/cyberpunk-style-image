@@ -1,0 +1,57 @@
+@import 'nib'
+
+.future-image-cover
+  width 560px
+  height 220px
+  position relative
+  transition all .3s
+  background-size cover
+  background-position center center
+  clip-path polygon(0 0, 80% 0, 100% 100%, 20% 100%)
+
+  span
+    height 100%
+    absolute top 0
+    transition all .1s
+    width calc(40% + 0.5px)
+
+    // Upside down triangle
+    &:nth-child(1), &:nth-child(3)
+      opacity .5
+      clip-path polygon(0 0, 100% 0, 50% 100%)
+
+    // Normal triangle
+    &:nth-child(2), &:nth-child(4)
+      opacity .4
+      clip-path polygon(50% 0, 100% 100%, 0 100%)
+
+    /*
+     * Colors and Position
+     */
+    &:nth-child(1)
+      left 0
+      background-color #3C3C3C
+
+    &:nth-child(2)
+      left 20%
+      transition-delay .1s
+      background-color #ABABAB
+
+    &:nth-child(3)
+      left 40%
+      transition-delay .2s
+      background-color #C1C0C0
+
+    &:nth-child(4)
+      left 60%
+      transition-delay .3s
+      background-color #3C3C3C
+
+  &:hover
+    filter hue-rotate(90deg)
+
+    span:nth-child(1), span:nth-child(3)
+      background-color #A0A0A0
+
+    span:nth-child(2), span:nth-child(4)
+      background-color #7D7D7D
