@@ -10,7 +10,7 @@
 
 This simple plugin was an exercise to practice the clip-path property. With `:hover` the image will alter some opacity and we apply a nice-looking hue-rotate effect.
 
-You only need to put call two files:
+You only need to call two files:
 
 - `<link rel="stylesheet" href="style.min.css">`
 
