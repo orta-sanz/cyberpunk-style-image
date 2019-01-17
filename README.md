@@ -2,7 +2,9 @@
 
 
 <center>
-![Imagen](https://raw.githubusercontent.com/orta-sanz/cyberpunk-style-image/master/img/gitimage.png)
+
+![imagen](https://raw.githubusercontent.com/orta-sanz/cyberpunk-style-image/master/img/gitimage.png)
+
 </center>
 
 
