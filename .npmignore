@@ -1,0 +1,14 @@
+example
+node_modules
+yarn.error
+CHANGELOG.md
+LICENSE
+webpack.config.js
+commitlint.config.js
+.travis.yml
+.npmrc
+.huskyrc
+.gitignore
+.editorconfig
+.babelrc
+src

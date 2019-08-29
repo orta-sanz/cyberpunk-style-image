@@ -1,0 +1,30 @@
+{
+    "name": "cyberpunk-style-image",
+    "version": "0.0.0",
+    "description": "Convert any background image into one cyberpunk-looking background",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "yarn run build:src && yarn run build:example",
+        "build:src": "webpack",
+        "build:example": "webpack example/script.src.js -o example/js/script.min.js"
+    },
+    "author": "Alejandro Orta Sanz (WazaMonster)",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.2.3",
+        "@commitlint/config-conventional": "^8.1.0",
+        "@jedmao/semantic-release-npm-github-config": "^1.0.6",
+        "babel-loader": "^8.0.6",
+        "commitlint": "^8.1.0",
+        "css-loader": "^3.2.0",
+        "husky": "^3.0.4",
+        "nib": "^1.1.2",
+        "semantic-release": "^15.13.24",
+        "style-loader": "^1.0.0",
+        "stylus": "^0.54.7",
+        "stylus-loader": "^3.0.2",
+        "webpack": "^4.39.3",
+        "webpack-cli": "^3.3.7"
+    }
+}
