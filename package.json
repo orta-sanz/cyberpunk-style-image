@@ -1,6 +1,6 @@
 {
     "name": "cyberpunk-style-image",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Convert any background image into one cyberpunk-looking background",
     "main": "dist/main.js",
     "scripts": {
